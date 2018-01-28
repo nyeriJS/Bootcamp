@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<!-- If IE use the latest rendering engine -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Set the page to the width of the device and set the zoon level -->
+<meta name="viewport" content="width = device-width, initial-scale = 1">
+<title>Bootstrap Tutorial</title>
+<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+
+<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle " data-target="#myNavBar" data-toggle="collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand hidden-sm" href="#">{ nyeri.js }</a>
+            </div>
+            <div class="navbar-collapse collapse" id="myNavBar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li class="dropdwon">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Members<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Comp Science</a></li>
+                            <li><a href="#">BBIT</a></li>
+                            <li><a href="#">Engineering</a></li>
+                            <li><a href="#">IT</a></li>
+                            <li><a href="#">Acturial</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <form class="navbar-form navbar-left"  role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="search">
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </div>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Join Us</a></li>                     
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <h1>Who We Are</h1>
+        <p>
+                We are commuity that is focused on helping people learn to 
+                code and gain skills in Web Develpment and related technologies -
+                HTML5, CSS3, JavaScript and its related technologies.
+            </p>
+            <p>
+                Join us <b>afternoons</b> weekdays from <b>2PM</b> at the <b>Resource Center</b> for free workshops, info sessions
+                and tech talks. Our events are well-suited for both beginners learning to code as well as intermediate
+                devs aiming to sharpen their skills.
+            </p>
+            <p>
+                Our meetups Topics Include:
+                <ol>
+                    <li>HTML 5 Web APIs</li>
+                    <li>HTML/CSS lessons, tips and tricks using Bootstrap for fast app development</li>
+                    <li>NodeJS for back-end systems</li>
+                </ol>
+            </p>
+            <p>
+                <h3>Requirements</h3>
+                <ol>
+                    <li>Your <b>laptop</b> but if you don`t have one, we can link you to someone who has.</li>
+                    <li>Probably a <b>selfie</b> enabled Camera</li>
+                </ol>
+            </p>
+            <p>
+                <h3 id="join-us">Join Us</h3>
+                <dl>
+                    <dt>WhatsApp</dt>
+                    <dd>Join us through: 
+                        <a href="https://chat.whatsapp.com/9K9SpgqgvJwHLeKHbnCj9I" style="color: #1faa0a" target="_blank">https://chat.whatsapp.com/9K9SpgqgvJwHLeKHbnCj9I</a>
+                    </dd>
+                    <br>
+                    <dt>Twitter</dt>
+                    <dd>Tweet us at: 
+                            <a href="https://twitter.com/" style="color: #1DA1F2" target="_blank">#nyeriJS</a>
+                        </dd>
+                </dl>
+            </p>
+        </div>
+    </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
