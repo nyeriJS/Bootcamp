@@ -1,8 +1,10 @@
 var quotes = new Array();
-quotes[0] = "Talk is cheap, show me the code";
-quotes[1] = "Action is the real measure of intelligence";
-quotes[2] = "Everyday is Christmas";
-quotes[3] = "Keep calm and code on";
+quotes[0] = "Talk is cheap, show me the code ~ Linus Torvalds";
+quotes[1] = "If at first you don’t succeed; call it version 1.0";
+quotes[2] = "If debugging is the process of removing software bugs, then programming must be the process of putting them in ~ Edsger Dijkstra";
+quotes[3] = "Any fool can use a computer.  Many do ~ Ted Nelson";
+quotes[4] = "Google + 'Ctrl+C' + 'Ctrl+V' = Homework Done";
+quotes[5] = "Algorithm:- Word used by programmers when they don't want to explain what they did";
 
 function writeRandomQuote(){
     //Use random number
